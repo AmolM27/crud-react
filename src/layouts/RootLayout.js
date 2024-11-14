@@ -4,12 +4,10 @@ import NavBar from '../NavBar';
 const RootLayout = () => {
     return ( 
         <div className='App'>
-            <header>
-                <NavBar></NavBar>
-            </header> 
-            <main>
+            <NavBar></NavBar>
+            <div className='content'>
                 <Outlet/>
-            </main>
+            </div>
         </div>
      );
 }

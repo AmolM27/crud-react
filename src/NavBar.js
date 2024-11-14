@@ -9,6 +9,7 @@ const NavBar = () => {
                         color: "white",
                         backgroundColor: "#f1356d"
             }}>New Blog</Link>
+            <Link to="/help">Help</Link>
         </div>
     </nav>
 );
